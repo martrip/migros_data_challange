@@ -3,7 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=data,macos,windows,python,jupyternotebooks,r
 
 ### Data ###
-*.csv
+# *.csv # For this project we will load the data so it is available to all the team
 *.dat
 *.efx
 *.gbr
