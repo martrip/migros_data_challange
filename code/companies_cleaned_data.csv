@@ -1,0 +1,278 @@
+address_shop,name_shop,rating_shop,lat_shop,lng_shop,supermarket_brand
+"Fraumünsterstrasse 16, 8001 Zürich, Switzerland",LIDL Switzerland,4.4,47.3687699,8.541178,Lidl
+"Grubenstrasse 28, 8045 Zürich, Switzerland",Lidl Schweiz,4.1,47.361768700000006,8.51472,Lidl
+"Förrlibuckstrasse 62, 8005 Zürich, Switzerland",Lidl Schweiz,4.3,47.3924813,8.5156983,Lidl
+"Ohmstrasse 11, 8050 Zürich, Switzerland",Lidl Schweiz,4.1,47.410451200000004,8.545717100000001,Lidl
+"Hofwiesenstrasse 350, 8050 Zürich, Switzerland",Lidl Schweiz,3.9,47.4104947,8.542732699999998,Lidl
+"Ueberlandstrasse 381, 8051 Zürich, Switzerland",Lidl,4.1,47.4078098,8.585127199999999,Lidl
+"Wehntalerstrasse 625, 8046 Zürich, Switzerland",Lidl Schweiz,4.2,47.4223919,8.499159599999999,Lidl
+"Reitmenstrasse 5, 8952 Schlieren, Switzerland",Lidl,4.1,47.3992852,8.432505800000001,Lidl
+"Neue Winterthurerstrasse 2, 8304 Wallisellen, Switzerland",Lidl,4.1,47.41237719999999,8.613654499999999,Lidl
+"Schaffhauserstrasse 165, 8302 Kloten, Switzerland",Lidl,4.1,47.45470330000001,8.579192899999999,Lidl
+"Gattikonerstrasse 135, 8136 Gattikon, Switzerland",Lidl,4.2,47.282953799999994,8.5439618,Lidl
+"Adlikerstrasse 295, 8105 Regensdorf, Switzerland",Lidl,4.2,47.4443098,8.465036399999999,Lidl
+"Im Schörli 20, 8600 Dübendorf, Switzerland",Lidl,4.1,47.395218,8.638226600000001,Lidl
+"Zweierstrasse 129, 8003 Zürich, Switzerland",Dürr A. & CO AG,0.0,47.370880299999996,8.5200731,Lidl
+"Rapidpl. 5, 8953 Dietikon, Switzerland",Lidl Schweiz,4.1,47.4103875,8.404201800000001,Lidl
+"Zentrumsstrasse, 8957 Spreitenbach, Switzerland",Lidl,3.8,47.4209227,8.368998099999999,Lidl
+"Feldstrasse 89, 8180 Bülach, Switzerland",Lidl Schweiz,4.2,47.509353000000004,8.540894300000001,Lidl
+"Centralweg 3, 8910 Affoltern am Albis, Switzerland",Lidl Schweiz,4.1,47.278006899999994,8.4530301,Lidl
+"Lägernstrasse 4, 8154 Oberglatt, Switzerland",Lidl,4.3,47.4753271,8.507048199999998,Lidl
+"Alte Bremgartenstrasse 10b, 8964 Rudolfstetten-Friedlisberg, Switzerland",Lidl,4.4,47.368204399999996,8.3796458,Lidl
+"Badenerstrasse 565, 8048 Zürich, Switzerland",ALDI Zürich,4.2,47.3837812,8.497584800000002,Lidl
+"Müllerenstrasse 5, 8604 Volketswil, Switzerland",Lidl Schweiz,4.2,47.3791386,8.677350099999998,Lidl
+"Gaswerkstrasse 2, 8952 Zürich, Switzerland",Lidl Schweiz,4.4,47.392161200000004,8.515644300000002,Lidl
+"Zollstrasse 58, 8005 Zürich, Switzerland",Aldi,4.3,47.3809072,8.533213400000001,Lidl
+"Witikonerstrasse 279, 8053 Zürich, Switzerland",ALDI Zürich,4.3,47.3587468,8.585599400000001,Lidl
+"Seestrasse 83 / 93, 8810 Horgen, Switzerland",Lidl Schweiz,4.2,47.2630694,8.591273600000001,Lidl
+"Albisstrasse 81, 8038 Zürich, Switzerland",ALDI Zürich,4.4,47.34096659999999,8.530600699999999,Lidl
+"Forchstrasse 140, 8032 Zürich, Switzerland",SPAR Supermarkt Zürich Forchstrasse,3.8,47.360411,8.563348999999999,Lidl
+"Steinacherstrasse 147, 8820 Wädenswil, Switzerland",Lidl Schweiz,4.2,47.23688800000001,8.6361487,Lidl
+"In der Au, 8400 Winterthur, Switzerland",Super Market Lidl,4.3,47.4860763,8.7043992,Lidl
+"Aarauerstrasse 36, 5630 Muri, Switzerland",Lidl Schweiz,4.2,47.279566100000004,8.3359696,Lidl
+"Hohlstrasse 473, 8048 Zürich, Switzerland",ALDI SUISSE,4.2,47.38824899999999,8.496713999999999,Lidl
+"Schärenmoosstrasse 77, 8052 Zürich, Switzerland",ALDI SUISSE - Zurich,4.3,47.419469899999996,8.5567393,Lidl
+"Binzmühlestrasse 102, 8050 Zürich, Switzerland",ALDI,4.2,47.4137869,8.539022000000001,Lidl
+"Schützenhausstrasse 7, 8330 Pfäffikon, Switzerland",Lidl Schweiz,4.1,47.366017299999996,8.7706879,Lidl
+"Baumackerstrasse 35, 8050 Zürich, Switzerland",ALDI Zürich,4.2,47.408905100000005,8.543592599999998,Lidl
+"Sihlstrasse 3, 8001 Zürich, Switzerland",ALDI Zürich,4.0,47.373727,8.537652999999999,Aldi
+"Ueberlandstrasse 441, 8051 Zürich, Switzerland",ALDI Zürich,4.1,47.405984499999995,8.5919026,Aldi
+"Zollstrasse 58a, 8005 Zürich, Switzerland",Aldi 2,0.0,47.3808521,8.5333122,Aldi
+"Zwirnereistrasse 7/9, 8304 Wallisellen, Switzerland",ALDI SUISSE AG,4.5,47.40446,8.6023031,Aldi
+"Schaffhauserstrasse 134, 8152 Opfikon, Switzerland",ALDI,4.3,47.43881,8.572427000000001,Aldi
+"Wagistrasse 20, 8952 Schlieren, Switzerland",ALDI Schlieren,4.2,47.3985329,8.459739299999999,Aldi
+"Dorfpl. 14, 8126 Zumikon, Switzerland",ALDI Zumikon,4.4,47.33257070000001,8.623414499999999,Aldi
+"Industriestrasse 31, 8305 Dietlikon, Switzerland",ALDI,4.1,47.4121821,8.619197699999999,Aldi
+"Soodring 36, 8134 Adliswil, Switzerland",ALDI Adliswil,4.5,47.316117999999996,8.520560999999999,Aldi
+"Im Schossacher 24, 8600 Dübendorf, Switzerland",ALDI Dübendorf,4.1,47.39280369999999,8.642413399999999,Aldi
+"Feldstrasse 32, 8105 Regensdorf, Switzerland",ALDI Regensdorf,4.0,47.43839020000001,8.473007199999998,Aldi
+"Goldschlägipl. 3, 8952 Schlieren, Switzerland",ALDI Schlieren,4.1,47.40016319999999,8.4416286,Aldi
+"Hofwisenstrasse 42, 8153 Rümlang, Switzerland",ALDI Rümlang,4.2,47.450376,8.538058099999999,Aldi
+"Zürcherstrasse 55, 8953 Dietikon, Switzerland",ALDI Dietikon,4.1,47.403130700000006,8.4061107,Aldi
+"General-Wille-Strasse 144, 8706 Meilen, Switzerland",ALDI Meilen,4.3,47.277332799999996,8.6176021,Aldi
+"Industriestrasse 5, 8910 Affoltern am Albis, Switzerland",ALDI Affoltern a. A.,4.0,47.2727245,8.4470147,Aldi
+"Ruchwiesenstrasse 5, 8157 Dielsdorf, Switzerland",ALDI Dielsdorf,4.3,47.4819841,8.466312599999998,Aldi
+"Bernstrasse 378, 8953 Dietikon, Switzerland",ALDI Dietikon,4.2,47.3855198,8.3957885,Aldi
+"Niederdorfstrasse 88, 8001 Zürich, Switzerland",Denner Express,4.1,47.3762467,8.544138199999999,Denner
+"Werdstrasse 36, 8004 Zürich, Switzerland",Denner Discount,4.2,47.3728511,8.5296261,Denner
+"Uetlibergstrasse 102, 8045 Zürich, Switzerland",Denner Express,4.1,47.3618536,8.5177373,Denner
+"Giesshübelstrasse 65, 8045 Zürich, Switzerland",Denner Discount,4.4,47.358222,8.517876,Denner
+"Wengistrasse 7, 8004 Zürich, Switzerland",Denner Express,4.0,47.37488219999999,8.5234249,Denner
+"Sihlhallenstrasse 5/7, 8004 Zürich, Switzerland",Denner Express,4.0,47.379543,8.527069000000001,Denner
+"Etzelstrasse 6, 8038 Zürich, Switzerland",Denner Discount,4.2,47.3445223,8.530807699999999,Denner
+"Josefstrasse 92, 8005 Zürich, Switzerland",Denner Express,4.1,47.3832011,8.5309637,Denner
+"Fierzgasse 18, 8005 Zürich, Switzerland",Denner Discount,4.2,47.383876,8.531965,Denner
+"Limmatstrasse 152, 8005 Zürich, Switzerland",Denner Discount,4.3,47.3857951,8.531932800000002,Denner
+"Molkenstrasse 8, 8004 Zürich, Switzerland",Denner Express,4.1,47.37662879999999,8.5272296,Denner
+"Kreuzstrasse 40, 8008 Zürich, Switzerland",Denner Express,4.1,47.3633856,8.5504429,Denner
+"Birmensdorferstrasse 320, 8055 Zürich, Switzerland",Denner Discount,4.1,47.370075299999996,8.5087137,Denner
+"Apollostrasse 2, 8032 Zürich, Switzerland",Denner Express,4.2,47.364459000000004,8.5556508,Denner
+"Hottingerstrasse 52, 8032 Zürich, Switzerland",Denner Express,4.5,47.3690299,8.5558873,Denner
+"Birmensdorferstrasse 406, 8055 Zürich, Switzerland",Denner Discount,4.2,47.369243,8.5030427,Denner
+"Baslerstrasse 50, 8048 Zürich, Switzerland",Denner Discount,4.0,47.38579319999999,8.499642300000001,Denner
+"Forchstrasse 261, 8032 Zürich, Switzerland",Denner Express,4.3,47.35840169999999,8.5717004,Denner
+"Bockhornstrasse 1, 8047 Zürich, Switzerland",Denner Discount,4.1,47.3759232,8.4840027,Denner
+"Toblerstrasse 76, 8044 Zürich, Switzerland",Denner Express,4.0,47.3790895,8.5597661,Denner
+"Letzigraben 120, 8047 Zürich, Switzerland",Denner Discount,4.3,47.3765558,8.4973795,Denner
+"Landenbergstrasse 22, 8037 Zürich, Switzerland",Denner Express,4.1,47.3927776,8.528612899999999,Denner
+"Schaffhauserstrasse 11, 8006 Zürich, Switzerland",Denner Express,4.1,47.3888953,8.5388634,Denner
+"Lindenpl. 4, 8048 Zürich, Switzerland",Denner Express,4.0,47.3872504,8.4860262,Denner
+"im OG, Altstetterstrasse 145, 8048 Zürich, Switzerland",Denner Discount,4.3,47.3884662,8.486958999999999,Denner
+"Winterthurerstrasse 83, 8006 Zürich, Switzerland",Denner Express,4.3,47.39069310000001,8.545193099999999,Denner
+"Badenerstrasse 621, 8048 Zürich, Switzerland",Denner Discount,4.5,47.3857711,8.492477599999999,Denner
+"Hofwiesenstrasse 135, 8057 Zürich, Switzerland",Denner Express,3.9,47.3990363,8.5325936,Denner
+"Limmattalstrasse 177, 8049 Zürich, Switzerland",Denner Express,4.1,47.401811200000004,8.4994619,Denner
+"Regensdorferstrasse 16, Einkaufszentrum, 8049 Zürich, Switzerland",Denner Discount,4.3,47.40328299999999,8.498274499999999,Denner
+"Regensbergstrasse 309, 8050 Zürich, Switzerland",Denner Discount,4.0,47.4114294,8.526571699999998,Denner
+"Hohlstrasse 610, 8048 Zürich, Switzerland",Denner Discount,4.2,47.3919231,8.4848724,Denner
+"Schwamendingenstrasse 24, 8050 Zürich, Switzerland",Denner Discount,4.2,47.40736709999999,8.548429800000001,Denner
+"Winterthurerstrasse 549, 8051 Zürich, Switzerland",Denner Discount,4.2,47.4045485,8.574454,Denner
+"Witikonerstrasse 299, Einkaufszentrum Witikon, 8053 Zürich, Switzerland",Denner Discount,4.3,47.3584599,8.5862955,Denner
+"Scheffelstrasse 12, 8037 Zürich, Switzerland",Coop Supermarkt Zürich Scheffelstrasse,4.0,47.3938032,8.5295861,Denner
+"Röschibachstrasse 22, 8037 Zürich, Switzerland",Coop Supermarkt Zürich Wipkingerbrücke,3.9,47.392635600000006,8.524665299999999,Denner
+"Tiefackerstrasse 20, 8134 Adliswil, Switzerland",Denner Discount,4.1,47.3153539,8.530547199999999,Denner
+"Soodstrasse 52, 8134 Adliswil, Switzerland",Denner Express,4.0,47.320401000000004,8.521865,Denner
+"Florastrasse 10 Ladenzentrum Bahnhof, 8134 Adliswil, Switzerland",Denner Discount,4.0,47.3122946,8.5243374,Denner
+"In Böden 174, 8046 Zürich, Switzerland",Denner Discount,4.3,47.420634299999996,8.5082811,Denner
+"Ladengasse 1, 8102 Oberengstringen, Switzerland",Denner Discount,4.0,47.4085506,8.463514100000001,Denner
+"Schaffhauserstrasse 491, 8052 Zürich, Switzerland",Denner Discount,4.1,47.42114829999999,8.549409599999999,Denner
+"Thurgauerstrasse 106, 8152 Opfikon, Switzerland",Denner Discount,4.2,47.421132799999995,8.557648,Denner
+"Glattalstrasse 76, 8052 Zürich, Switzerland",Denner Express,4.0,47.4272499,8.5467359,Denner
+"Winterthurerstrasse 524, 8051 Zürich, Switzerland",Denner Discount,5.0,47.4039316,8.5726414,Denner
+"Wallisellerstrasse 114/116, 8152 Opfikon, Switzerland",Denner Partner,4.3,47.428244,8.573966,Denner
+"Bahnhofstrasse 9, 8304 Wallisellen, Switzerland",Denner Discount,4.2,47.4143811,8.5910411,Denner
+"Dübendorfstrasse 271, 8051 Zürich, Switzerland",Denner Discount,4.4,47.4000868,8.5878648,Denner
+"Schaffhauserstrasse 141, 8152 Opfikon, Switzerland",Denner Discount,4.2,47.436237,8.568358,Denner
+"Neue Winterthurerstrasse 99, 8304 Wallisellen, Switzerland",Denner Discount,4.2,47.4078875,8.5965549,Denner
+"Saatlenstrasse 12, 8051 Zürich, Switzerland",Coop Supermarkt Zürich Schwamendingen,3.9,47.4049187,8.571667800000002,Denner
+"Hirzenbachstrasse 40, 8051 Zürich, Switzerland",Coop Supermarkt Zürich Hirzenbachstrasse,3.7,47.40348529999999,8.5893299,Denner
+"Bahnhofpl. 8a, 8152 Opfikon, Switzerland",Denner Express,5.0,47.431189200000006,8.5593231,Denner
+"Witikonerstrasse 409, 8053 Zürich, Switzerland",Coop Supermarkt Zürich Witikonerstrasse,4.0,47.3602256,8.594670899999999,Denner
+"Löwenstrasse 31, 8001 Zürich, Switzerland",Alnatura Bio Super Markt,4.6,47.375062899999996,8.5361977,Alnatura
+"Sihlquai, 8001 Zürich, Switzerland",Alnatura Bio Super Markt,4.5,47.3784018,8.5356141,Alnatura
+"Mühlegasse 11, 8001 Zürich, Switzerland",Alnatura Bio Super Markt,3.8,47.37440479999999,8.544026800000001,Alnatura
+"Kappenbühlweg 5, 8049 Zürich, Switzerland",Alnatura Bio Super Markt,4.4,47.4033686,8.4980183,Alnatura
+"Kreuzpl. 20, 8008 Zürich, Switzerland",Alnatura Bio Super Markt,4.6,47.3643843,8.5541235,Alnatura
+"Einkaufszentrum Glatt, Neue Winterthurerstrasse 99, 8304 Wallisellen, Switzerland",Alnatura Bio Super Markt,4.0,47.408273799999996,8.5950007,Alnatura
+"Bahnhofstrasse 28, 8180 Bülach, Switzerland",Alnatura Bio Super Markt,4.4,47.52115930000001,8.5400023,Alnatura
+"Baarerstrasse 22, 6300 Zug, Switzerland",Alnatura Bio Super Markt,4.2,47.1732512,8.5170265,Alnatura
+"Industriestrasse 11, 8400 Winterthur, Switzerland",Alnatura Bio Super Markt,4.5,47.4965985,8.753204799999999,Alnatura
+"Löwenstrasse 30, 8001 Zürich, Switzerland",REFORMHAUS,4.7,47.3746073,8.536167299999999,Alnatura
+"Zürichstrasse 20, 8610 Uster, Switzerland",Alnatura Bio Super Markt,4.3,47.349549100000004,8.715725299999999,Alnatura
+"Hottingerstrasse 2, 8032 Zürich, Switzerland",SPAR express Zürich Schauspielhaus,4.0,47.37035119999999,8.549401,Spar
+"Dolderstrasse 5, 8032 Zürich, Switzerland",SPAR Supermarkt Dolderstrasse,4.0,47.3703218,8.556850500000001,Spar
+"Toblerpl. 5, 8044 Zürich, Switzerland",SPAR express Zürich Toblerplatz,4.0,47.379098799999994,8.5597882,Spar
+"Hardturmstrasse 126, 8005 Zürich, Switzerland",SPAR express Zürich Hardturmstrasse,3.5,47.3935571,8.513138000000001,Spar
+"Langstrasse 124, 8004 Zürich, Switzerland",SPAR Supermarkt Gerlafingen,0.0,47.37952139999999,8.5277843,Spar
+"Schaffhauserstrasse 239, 8057 Zürich, Switzerland",Eurospar,4.3,47.40321779999999,8.5469741,Spar
+"Regensbergstrasse 300, 8050 Zürich, Switzerland",Spar Supermarkt,3.9,47.41156429999999,8.527926800000001,Spar
+"Freilagerstrasse 51, 8047 Zürich, Switzerland",SPAR Supermarkt Zollfreilager,4.2,47.380042700000004,8.4896586,Spar
+"Wehntalerstrasse 634, 8046 Zürich, Switzerland",SPAR Supermarkt,4.1,47.423050200000006,8.499413699999998,Spar
+"Berninastrasse 41, 8057 Zürich, Switzerland",City Bernina,4.1,47.403388799999995,8.547363700000002,Spar
+"Badenerstrasse 104, 8952 Schlieren, Switzerland",SPAR Supermarkt Schlieren,4.6,47.3973206,8.431030900000001,Spar
+"u. Geerenstrasse 1, 8600 Dübendorf, Switzerland",SPAR Supermarkt Dübendorf,3.9,47.389641,8.617294000000001,Spar
+"Pilgerweg 45, 8803 Rüschlikon, Switzerland",SPAR Supermarkt Rüschlikon,4.2,47.3062584,8.5562832,Spar
+"Schaffhauserstrasse 60, 8302 Kloten, Switzerland",SPAR Supermarkt Bramen,4.0,47.444122,8.578880999999999,Spar
+"Ottikerstrasse 4, 8006 Zürich, Switzerland",Maxi Frischmarkt Zürich,4.5,47.38534079999999,8.5421604,Spar
+"Breitistrasse 24, 8302 Kloten, Switzerland",SPAR Supermarkt Kloten Breitistrasse,4.1,47.447722,8.584222,Spar
+"Bahnhofstrasse 42, 8305 Dietlikon, Switzerland",SPAR Supermarkt Dietlikon,4.3,47.42318119999999,8.6186765,Spar
+"Bahnhofstrasse 1, 8603 Schwerzenbach, Switzerland",SPAR Supermarkt Schwerzenbach,4.1,47.381935,8.6526041,Spar
+"Dorfstrasse 15, 8906 Bonstetten, Switzerland",SPAR Supermarkt Bonstetten,4.1,47.31487300000001,8.469695,Spar
+"Tessinerpl. 10, 8002 Zürich, Switzerland",Coop Supermarkt Zürich Enge Bahnhof,4.0,47.3644302,8.530957899999999,Spar
+"Regensdorferstrasse 22, 8108 Dällikon, Switzerland",SPAR Supermarkt Dällikon,4.2,47.439263700000005,8.441291699999999,Spar
+"SPAR express West, Hardturmstrasse 126, 8005 Zürich, Switzerland",Postal agency 8068 Zürich West,3.4,47.393510299999996,8.5132774,Spar
+"Bleicherweg 19, 8002 Zürich, Switzerland",Coop Supermarkt Zürich Bleicherweg,3.9,47.3677745,8.5357179,Spar
+"Badenerstrasse 333, 8003 Zürich, Switzerland",Coop Supermarkt Zürich Albisriederplatz,4.1,47.37771129999999,8.5111067,Spar
+"Regensdorferstrasse 2, 8104 Weiningen, Switzerland",SPAR Supermarkt Weiningen,4.3,47.419928000000006,8.434778,Spar
+"Seefeldstrasse 199, 8008 Zürich, Switzerland",Coop Supermarkt Zürich Tiefenbrunnen,3.9,47.3533693,8.559115,Spar
+"Seefeldstrasse 123, 8008 Zürich, Switzerland",Coop Supermarkt Zürich Seefeld,4.1,47.3580373,8.5547665,Spar
+"Röschibachstrasse 56, 8037 Zürich, Switzerland",Reto Suhner,0.0,47.39337020000001,8.5269906,Spar
+"Althardstrasse 10, 8105 Regensdorf, Switzerland",Spar,0.0,47.4366362,8.473856,Spar
+"Oberglatterstrasse 35, 8153 Rümlang, Switzerland",SPAR express Rümlang,4.1,47.4642074,8.526148599999999,Spar
+"Mythenquai 353, 8038 Zürich, Switzerland",SPAR express Mythenquai,4.0,47.3460045,8.5345955,Spar
+"Bahnhofstrasse 6/8, 8932 Mettmenstetten, Switzerland",SPAR Supermarkt Mettmenstetten,4.2,47.2437599,8.4616419,Spar
+"Uetlibergstrasse 20, 8045 Zürich, Switzerland",Coop Supermarkt Zürich Manessehof,4.0,47.3649163,8.521123900000001,Spar
+"Kalanderpl. 1, 8045 Zürich, Switzerland",Coop Supermarkt Zürich Sihlcity Supermarkt,4.4,47.3576232,8.5231751,Spar
+"Bachstrasse 11, 8902 Urdorf, Switzerland",SPAR Supermarkt Urdorf,4.2,47.3819171,8.4237329,Spar
+"Pumpwerkstrasse 56, 8105 Regensdorf, Switzerland",SPAR,4.2,47.4453521,8.464095499999999,Spar
+"Neunbrunnenstrasse 40, 8052 Zürich, Switzerland",DHL Service Point (SPAR EXPRESS),0.0,47.417332200000004,8.5405667,Spar
+"Birmensdorferstrasse 517, 8055 Zürich, Switzerland",migrolino Zürich Birmensdorferstrasse,4.3,47.36741079999999,8.494410199999999,Spar
+"Birmensdorferstrasse 484, 8055 Zürich, Switzerland",migrolino Triemli,4.3,47.368580200000004,8.496631500000001,Spar
+"Löwenstrasse 31-35, 8001 Zürich, Switzerland",Migros,4.3,47.37538319999999,8.536079699999998,Migros
+"Hauptbahnhof, 8001 Zürich, Switzerland",Migros Supermarkt,4.3,47.3782609,8.5402757,Migros
+"ShopVille - Zürich Hauptbahnhof, 8001 Zürich, Switzerland",Migros Supermarkt,4.2,47.3770993,8.5393882,Migros
+"Sihlpassage, 8004 Zürich, Switzerland",Migros Supermarkt,4.3,47.3784015,8.535615,Migros
+"Falkenstrasse 19 - 21, 8008 Zürich, Switzerland",Migros,4.2,47.36543959999999,8.547797899999999,Migros
+"Stockerstrasse 47, 8002 Zürich, Switzerland",Migros Supermarkt,4.1,47.36834210000001,8.5341709,Migros
+"Löwenstrasse 35, 8001 Zürich, Switzerland",Billett-Service Migros,4.0,47.3752656,8.536159999999999,Migros
+"Löwenstrasse 2, 8001 Zürich, Switzerland",migrolino fresh Zürich Löwenstrasse,4.1,47.3729829,8.534700899999999,Migros
+"Winterthurerstrasse 2/4, 8006 Zürich, Switzerland",Migros Supermarkt,4.2,47.3860603,8.548691,Migros
+"Löwenstrasse 31/35, 8001 Zürich, Switzerland",SUN STORE Migros City Zürich,3.1,47.3754389,8.536062699999999,Migros
+"Bahnhofquai Hauptbahnhof, 8001 Zürich, Switzerland",migrolino,3.7,47.37788,8.541199800000001,Migros
+"Bahnhofstrasse, 8001 Zürich, Switzerland",Migros,2.9,47.3784278,8.5402537,Migros
+"Birmensdorferstrasse 140, 8003 Zürich, Switzerland",Migros Supermarkt,4.2,47.3700773,8.520128399999999,Migros
+"Hardturmstrasse 11, 8005 Zürich, Switzerland",Migros Supermarkt,4.3,47.391335999999995,8.518552999999999,Migros
+"Waffenplatzstrasse 40, 8002 Zürich, Switzerland",migrolino Zürich Waffenplatz,4.3,47.3595094,8.5266133,Migros
+"BRUNAUPARK, Giesshübelstrasse 65, 8045 Zürich, Switzerland",Migros Supermarkt,4.3,47.35838589999999,8.517647199999999,Migros
+"Etzelstrasse 3, 8038 Zürich, Switzerland",Migros Supermarkt,4.3,47.34472220000001,8.53,Migros
+"Pfingstweidstrasse 101, 8005 Zürich, Switzerland",Migros-Supermarkt,4.2,47.3902225,8.508951999999999,Migros
+"Mutschellenstrasse 137, 8038 Zürich, Switzerland",Migros Florissimo,4.6,47.34697560000001,8.5287457,Migros
+"Badenerstrasse 376, 8004 Zürich, Switzerland",Migros Supermarkt,4.1,47.379105100000004,8.508754199999998,Migros
+"Bullingerstrasse 73, 8004 Zürich, Switzerland",migrolino Zürich Hardau,4.1,47.381426700000006,8.510088999999999,Migros
+"Badenerstrasse 339, 8004 Zürich, Switzerland",migrolino fresh Zürich Albisriederplatz,0.0,47.377892200000005,8.5108966,Migros
+"Langstrasse 134, 8004 Zürich, Switzerland",migrolino fresh Zürich Langstrasse,3.9,47.3798155,8.5279692,Migros
+"Scheffelstrasse 3, 8037 Zürich, Switzerland",Migros Supermarkt,4.1,47.39369779999999,8.529244199999999,Migros
+"Zollstrasse 6, 8005 Zürich, Switzerland",Migros Supermarkt (mit Daily Produkten),4.5,47.3798176,8.5369492,Migros
+"Schaffhauserstrasse 75, 8057 Zürich, Switzerland",Migros,4.0,47.3925449,8.538483900000001,Migros
+"8037 Zürich, Switzerland",VOI Migros Partner,4.3,47.3953139,8.518342800000001,Migros
+"Heinrichstrasse 216, 8005 Zürich, Switzerland",Migros-Genossenschafts-Bund Group IT,4.7,47.3883466,8.524344500000002,Migros
+"Sihlquai 155, 8005 Zürich, Switzerland",migrolino Zürich Sihlquai,3.9,47.386045200000005,8.5319444,Migros
+"Regensdorferstrasse 20, 8049 Zürich, Switzerland",Migros Supermarkt,4.3,47.4037541,8.497185499999999,Migros
+"Seefeldstrasse 111/113, 8008 Zürich, Switzerland",Migros Supermarkt,4.2,47.358365,8.5541587,Migros
+"Forchstrasse 260, 8008 Zürich, Switzerland",Migros Supermarkt,4.1,47.357604200000004,8.5716275,Migros
+"Witikonerstrasse 293, 8053 Zürich, Switzerland",Migros Supermarkt,4.3,47.35909299999999,8.5856,Migros
+"Horneggstrasse 3, 8008 Zürich, Switzerland",migrolino Zürich Hornegg,4.4,47.3522694,8.5586466,Migros
+"Toblerstrasse 73, 8044 Zürich, Switzerland",Migros Supermarkt,3.9,47.379307,8.559392599999999,Migros
+"Leimbachstrasse 23, 8041 Zürich, Switzerland",Migros Supermarkt,4.1,47.33603830000001,8.518925999999999,Migros
+"Jonas-Furrer-Strasse 21, 8046 Zürich, Switzerland",Migros Supermarkt,4.2,47.420061100000005,8.5085111,Migros
+"Albisriederstrasse 365, 8047 Zürich, Switzerland",Migros Supermarkt,4.1,47.3752046,8.4857195,Migros
+"Neumarkt Altstetten, Altstetterstrasse 145, 8048 Zürich, Switzerland",Migros Supermarkt,4.4,47.3882164,8.4873808,Migros
+"Hohlstrasse 600, 8048 Zürich, Switzerland",Migros Supermarkt,4.2,47.391361200000006,8.4877977,Migros
+"Einkaufszentrum Neumarkt, Hofwiesenstrasse 350, 8050 Zürich, Switzerland",Migros Supermarkt,4.3,47.410613899999994,8.542808099999998,Migros
+"Schaffhauserstrasse 470, 8052 Zürich, Switzerland",Migros Supermarkt,4.3,47.4195334,8.5483259,Migros
+"Nansenstrasse 21, 8050 Zürich, Switzerland",Do it + Garden - City Farming Zürich-Oerlikon,4.4,47.4101441,8.544248,Migros
+"Einkaufszentrum Neumarkt, 8050 Zürich, Switzerland",Migros Florissimo,0.0,47.4106911,8.543093899999999,Migros
+"Zentrum Neumarkt Hofwiesenstrasse 350-354, 8050 Zürich, Switzerland",melectronics,3.6,47.41048319999999,8.542931099999999,Migros
+"Thurgauerstrasse 100, 8052 Zürich, Switzerland",migrolino Zürich Thurgauerstrasse,4.3,47.41979689999999,8.5563336,Migros
+"Hofwiesenstrasse 350/354, 8050 Zürich, Switzerland",Migros Take Away,3.9,47.410676200000005,8.5429459,Migros
+"Hofwiesenstrasse 354, 8050 Zürich, Switzerland",Migros Electronics,3.0,47.410606,8.542990300000001,Migros
+"Grünauring 37, 8064 Zürich, Switzerland",VOI,4.0,47.3960893,8.4864944,Migros
+"Bahnhofbrücke 1, 8001 Zürich, Switzerland",Coop Supermarkt Zürich Bahnhofbrücke,4.3,47.3764584,8.5423575,Coop
+"Bärengasse 16, 8001 Zürich, Switzerland",Coop Supermarkt Zürich Bärengasse,4.2,47.3700619,8.537119299999999,Coop
+"Stadelhoferstrasse 10, 8001 Zürich, Switzerland",coop Zürich Stadelhofen,4.2,47.3665879,8.5478226,Coop
+"Europaallee 5, 8004 Zürich, Switzerland",Coop Supermarkt Zürich Europaallee Passage,4.2,47.3780286,8.534917499999999,Coop
+"Halle, Löwenstrasse, 8021 Zürich, Switzerland",Coop Supermarkt Zürich ShopVille HB,4.0,47.37780739999999,8.538464900000001,Coop
+"Theaterstrasse 18, 8001 Zürich, Switzerland",Coop City Zürich Bellevue,4.2,47.367271,8.546107899999999,Coop
+"Badenerstrasse 15, 8004 Zürich, Switzerland",Coop Supermarkt Zürich Stauffacher,4.1,47.37342350000001,8.5303361,Coop
+"Bahnhofstrasse 57, 8001 Zürich, Switzerland",Coop Supermarkt City Zürich St. Annahof Food,4.3,47.37295719999999,8.537843400000002,Coop
+"Löwenstrasse 7, 8001 Zürich, Switzerland",Coop Pronto Shop,4.1,47.3733679,8.534488,Coop
+"Zollstrasse 42, 8005 Zürich, Switzerland",Coop Supermarkt Zürich Zollstrasse,4.2,47.3805215,8.534859800000001,Coop
+"Universitätstrasse 73, 8006 Zürich, Switzerland",Coop Supermarkt Zürich Universitätstrasse,3.9,47.38252139999999,8.547810499999999,Coop
+"Seefeldstrasse 35, 8008 Zürich, Switzerland",Coop Supermarkt Zürich Brotgasse,4.1,47.36317460000001,8.5499358,Coop
+"Hohlstrasse 35, 8004 Zürich, Switzerland",Coop Supermarkt Zürich Hohlstrasse,4.0,47.3771023,8.5265009,Coop
+"Forchstrasse 4, 8008 Zürich, Switzerland",Coop Supermarkt Zürich Kreuzplatz,3.9,47.364449900000004,8.5548427,Coop
+"Badenerstrasse 44, 8004 Zürich, Switzerland",Coop Pronto Shop,4.1,47.373560600000005,8.5280957,Coop
+"Universitätstrasse 101, 8006 Zürich, Switzerland",Coop Supermarkt Zürich Rigiplatz,3.8,47.383957099999996,8.5480634,Coop
+"Löwenstrasse 9, 8001 Zürich, Switzerland",Coop Pronto Shop – Zürich Löwenstrasse,3.9,47.3733847,8.534583300000001,Coop
+"Tessinerpl. 3, 8002 Zürich, Switzerland",Coop Pronto Shop,4.2,47.364414200000006,8.5322192,Coop
+"Birmensdorferstrasse 200, 8003 Zürich, Switzerland",Coop Supermarkt Zürich Wiedikon,4.3,47.370795799999996,8.5160521,Coop
+"Badenerstrasse 244, 8004 Zürich, Switzerland",Coop Supermarkt Zürich Lochergut,4.2,47.3757341,8.5173337,Coop
+"Röntgenstrasse 48, 8005 Zürich, Switzerland",Coop Supermarkt Zürich Josefstrasse,4.0,47.3847527,8.527192099999999,Coop
+"Maagpl. 1, 8005 Zürich, Switzerland",Coop Supermarkt Zürich Maagplatz,4.1,47.38597539999999,8.5161538,Coop
+"Birmensdorferstrasse 55, 8004 Zürich, Switzerland",Coop Pronto Shop,4.1,47.3713635,8.5251356,Coop
+"Badenerstrasse 120, 8004 Zürich, Switzerland",Coop Pronto Shop,4.1,47.374424,8.5237379,Coop
+"Giessereistrasse 18, 8005 Zürich, Switzerland",Coop Supermarkt Zürich Puls 5,4.1,47.3908033,8.5178652,Coop
+"Pfingstweidstrasse 106, 8005 Zürich, Switzerland",Coop Supermarkt Zürich Hard Turm Park,4.1,47.391116100000005,8.508011400000001,Coop
+"Maschinenstrasse 10, 8005 Zürich, Switzerland",Coop Supermarkt Pfingstweidstrasse Prime 2,4.5,47.387401000000004,8.517362,Coop
+"Hardstrasse 221, 8005 Zürich, Switzerland",Coop Pronto Shop,4.0,47.386452,8.5177126,Coop
+"Baslerstrasse 50, 8066 Zürich, Switzerland",Coop Supermarkt Zürich Letzipark,4.2,47.3859855,8.499333,Coop
+"Neugasse 50, 8005 Zürich, Switzerland",Coop ToGo Zürich Neugasse,4.0,47.382748299999996,8.5296886,Coop
+"Klosbachstrasse 104, 8032 Zürich, Switzerland",Coop Supermarkt Zürich Römerhof,4.0,47.3678286,8.5608793,Coop
+"Witikonerstrasse 15, 8032 Zürich, Switzerland",Coop Pronto Shop,4.4,47.3639816,8.5670317,Coop
+"Alte Kalchbühlstrasse 15, 8038 Zürich, Switzerland",Coop Supermarkt Zürich Wollishofen,4.3,47.3399252,8.530756499999999,Coop
+"Seestrasse 339, 8038 Zürich, Switzerland",Coop Supermarkt Zürich Wollishofen Seestr.,4.1,47.347195899999996,8.533142800000002,Coop
+"Leimbachstrasse 200, 8041 Zürich, Switzerland",Coop Supermarkt Zürich Leimbach,4.2,47.32622979999999,8.5143129,Coop
+"Friesenbergpl. 3, 8045 Zürich, Switzerland",Coop Supermarkt Zürich Zentrum Friesenberg,3.9,47.36092070000001,8.5068197,Coop
+"Zürichstrasse 114, 8134 Adliswil, Switzerland",Coop Pronto Shop mit Tankstelle,4.1,47.327599,8.52998,Coop
+"Zürichbergstrasse 75, 8044 Zürich, Switzerland",Coop Supermarkt Zürich Fluntern,3.9,47.376389200000006,8.559660299999999,Coop
+"Wehntalerstrasse 549, 8046 Zürich, Switzerland",Coop Supermarkt Zürich Wehntalerstrasse,4.0,47.418887100000006,8.505592300000002,Coop
+"Mühlackerstrasse 199, 8046 Zürich, Switzerland",Coop Supermarkt Zürich Mühlackerstrasse,4.2,47.4255113,8.4969846,Coop
+"In der Ey 85, 8047 Zürich, Switzerland",Coop Supermarkt Zürich Triemli,4.2,47.370577000000004,8.4921401,Coop
+"Albisriederstrasse 334, 8047 Zürich, Switzerland",Coop Supermarkt Zürich A-Park,4.0,47.3761878,8.4870906,Coop
+"Gutstrasse 159, 8047 Zürich, Switzerland",Coop Supermarkt Zürich Gutstrasse,3.9,47.37366309999999,8.502381199999999,Coop
+"Badenerstrasse 575, 8048 Zürich, Switzerland",Coop Pronto Shop,4.4,47.38463170000001,8.495802000000001,Coop
+"Badenerstrasse 650, 8048 Zürich, Switzerland",Coop Supermarkt Zürich Altstetten,4.0,47.3875672,8.489013499999999,Coop
+"Lindenpl. 6, 8048 Zürich, Switzerland",Coop Supermarkt Zürich Lindenplatz,4.0,47.3876386,8.4853846,Coop
+"Vulkanpl., 8048 Zürich, Switzerland",Coop Supermarkt Zürich Westlink,4.1,47.3921018,8.490131300000002,Coop
+"Am Suteracher 14, 8048 Zürich, Switzerland",Coop Supermarkt Zürich Suteracher,4.1,47.389955,8.472095199999998,Coop
+"Hohlstrasse 560, 8048 Zürich, Switzerland",Coop Pronto Shop,4.1,47.3909986,8.489169,Coop
+"Vulkanstrasse 108, 8048 Zürich, Switzerland",Coop Supermarkt Zürich Vulkanstrasse,4.2,47.39354960000001,8.483847599999999,Coop
+"Hohlstrasse 461, 8048 Zürich, Switzerland",Coop,4.2,47.3872813,8.4984865,Coop
+"Badenerstrasse 812, 8048 Zürich, Switzerland",Coop Pronto Shop,4.1,47.393316399999996,8.474460500000001,Coop
+"Regensdorferstrasse 9, 8049 Zürich, Switzerland",Coop Supermarkt Zürich Hönggermarkt,4.2,47.4026805,8.4983802,Coop
+"Wolfgang-Pauli-Strasse 14, 8049 Zürich, Switzerland",Coop Supermarkt Zürich ETH Hönggerberg,3.9,47.4083915,8.507961,Coop
+"Rütihofstrasse 15, 8049 Zürich, Switzerland",Coop Supermarkt Zürich Rütihof,3.7,47.4137347,8.4796167,Coop
+"Frankentalerstrasse 20, 8049 Zürich, Switzerland",Coop Supermarket,4.3,47.4058702,8.4814171,Coop
+"Am Wasser 146, 8049 Zürich, Switzerland",Coop Pronto Shop mit Tankstelle,4.2,47.399702000000005,8.4972645,Coop
+"Auguste-Piccard-Hof, 8049 Zürich, Switzerland",Coop Verkaufsautomat ETH Hönggerberg,4.0,47.408580900000004,8.5082551,Coop
+"Sophie-Taeuber-Strasse 4, 8050 Zürich, Switzerland",Coop Supermarkt Zürich Eleven,4.3,47.4131828,8.5406746,Coop
+"Schwamendingenstrasse 39, 8050 Zürich, Switzerland",Coop Supermarkt Zürich Dorflinde,4.0,47.4076154,8.549924299999999,Coop
+"Hofwiesenstrasse 369, 8050 Zürich, Switzerland",Coop Pronto Shop,4.0,47.4112509,8.543221299999999,Coop
+"Wallisellenstrasse 333, 8050 Zürich, Switzerland",Coop Supermarkt Zürich Precisa,4.0,47.4113768,8.562585,Coop
+"Wallisellenstrasse 1, 8050 Zürich, Switzerland",Coop City Zürich Oerlikon Food,4.2,47.41037910000001,8.5466882,Coop
+"Andreasstrasse 5, 8050 Zürich, Switzerland",Coop Supermarkt Zürich Andreasturm,4.3,47.41290499999999,8.5473555,Coop
+"Thurgauerstrasse 36, 8050 Zürich, Switzerland",Coop Pronto Shop,4.2,47.4138904,8.5514837,Coop
+"Dübendorfstrasse 447, 8051 Zürich, Switzerland",Coop Pronto Shop,4.1,47.3972115,8.5963125,Coop
+"Schwellistrasse 69, 8052 Zürich, Switzerland",Coop Supermarkt Zürich Schwellistrasse,4.2,47.4248948,8.537753599999998,Coop
+"Zürcherstrasse 1, 8142 Uitikon, Switzerland",Coop Supermarkt Uitikon Waldegg,4.4,47.3676719,8.461705199999999,Coop
+"Milchbuckstrasse 1/5, 8057 Zürich, Switzerland",Coop Supermarkt Zürich Milchbuck,3.8,47.3954544,8.540429699999999,Coop
