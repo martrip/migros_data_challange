@@ -3,6 +3,7 @@ import geopandas as gpd
 import numpy as np
 from scipy.spatial import cKDTree
 from shapely.geometry import Point
+from kd_tree import ckdnearest
 
 #remove unneccessary columns from raw data
 # df = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_provided_by_UrbanDataLabs.csv')
@@ -10,26 +11,15 @@ from shapely.geometry import Point
 # df_dropped.to_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_needed.csv', index=False)
 
 #add new column with both coordinates as type point in dataframes that need to be compared for closest neighbours
-df_geometry = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_needed.csv')
-coordinates_list = [Point(df_geometry['lat'][i], df_geometry['lng'][i]) for i in range(len(df_geometry['lat']))]
-df_geometry['geometry'] = coordinates_list
+df_geofeatures = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_needed.csv')
+df_geofeatures['geometry'] = [Point(df_geofeatures['lat'][i], df_geofeatures['lng'][i]) for i in range(len(df_geofeatures['lat']))]
+
 df_competitors = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/supermarkets_clean_data.csv')
 df_competitors = df_competitors.rename(columns={'geometry.viewport.northeast.lat': 'lat_shop', 'geometry.viewport.northeast.lng': 'lng_shop'})
-coordinates_shop_list = [Point(df_competitors['lat_shop'][i], df_competitors['lng_shop'][i]) for i in range(len(df_competitors['lat_shop']))]
-df_competitors['geometry'] = coordinates_shop_list
+df_competitors['geometry'] = [Point(df_competitors['lat_shop'][i], df_competitors['lng_shop'][i]) for i in range(len(df_competitors['lat_shop']))]
 
 #calculate nearest neighbour
-#kd-tree for quick nearest-neighbor lookup function
-def ckdnearest(gdA, gdB):
-    nA = np.array(list(gdA.geometry.apply(lambda x: (x.x, x.y))))
-    nB = np.array(list(gdB.geometry.apply(lambda x: (x.x, x.y))))
-    btree = cKDTree(nB)
-    dist, idx = btree.query(nA, k=1)
-    gdf = pd.concat(
-        [gdA.reset_index(drop=True), gdB.loc[idx, gdB.columns != 'geometry'].reset_index(drop=True),
-         pd.Series(dist, name='dist')], axis=1)
-    return gdf
-assigned_df = ckdnearest(df_competitors, df_geometry)
+assigned_df = ckdnearest(df_competitors, df_geofeatures)
 
 #make df with number of supermarkets for each coordinate point in original geofeatures file
 #need to get rid of geometry in one df so it won't be in the new df twice
@@ -77,7 +67,7 @@ df = pd.DataFrame({'lat': new_df['lat'].tolist(),
                    'other': other,})
 df['competitors'] = df['coop'] + df['discounter'] + df['other'] #count all competitor supermarkets per coordinate
 df['all_supermarkets'] = df['migros'] + df['coop'] + df['discounter'] + df['other'] #count all supermarkets per coordinate
-df_merged = pd.merge(df_geometry, df, how='outer')
+df_merged = pd.merge(df_geofeatures, df, how='outer')
 df_merged = df_merged.fillna(0)
 df_merged.to_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_and_supermarkets.csv', index=False)
 
