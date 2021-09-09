@@ -6,6 +6,7 @@
 # *.csv # For this project we will load the data so it is available to all the team
 */GeoFeatures_Zurich_provided_by_UrbanDataLabs.csv
 */GeoFeatures_Zurich_needed.csv
+*/export_supermarkets_labeled.csv
 *.dat
 *.efx
 *.gbr
