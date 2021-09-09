@@ -36,7 +36,7 @@ coop = []
 discounter = []
 other = []
 sup_columns = [migros, coop, discounter, other]
-distance_limit = 1 #to make sure no supermarket outside of our region of interest is accidently included
+distance_limit = 0.01 #to make sure no supermarket outside of our region of interest is accidently included
 for i in range(len(list_lat_lng)):
     lat_lng = list_lat_lng[i]
     for k in range(len(sup_columns)):
