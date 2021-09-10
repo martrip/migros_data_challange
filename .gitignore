@@ -13,7 +13,7 @@
 *.key
 *.pps
 *.ppt
-*.pptx
+#*.pptx
 *.sdf
 *.tax2010
 *.vcf
