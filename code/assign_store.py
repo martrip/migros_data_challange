@@ -1,73 +1,57 @@
-import pandas as pd
-import geopandas as gpd
-import numpy as np
-from scipy.spatial import cKDTree
-from shapely.geometry import Point
-from kd_tree import ckdnearest
+# import pandas as pd
+# from shapely.geometry import Point
+# from kd_tree import ckdnearest
 
-#remove unneccessary columns from raw data
-# df = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_provided_by_UrbanDataLabs.csv')
-# df_dropped = df[['hh_ha', 'pers_ha', 'pt_dis', 'station_dis', 'lat', 'lng']]
-# df_dropped.to_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_needed.csv', index=False)
+# #open data files
+# df_geofeatures = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_needed.csv')
+# df_competitors = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/supermarkets_clean_data.csv')
+# df_competitors = df_competitors.rename(columns={'geometry.viewport.northeast.lat': 'lat_shop', 'geometry.viewport.northeast.lng': 'lng_shop'})
 
-#add new column with both coordinates as type point in dataframes that need to be compared for closest neighbours
-df_geofeatures = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_needed.csv')
-df_geofeatures['geometry'] = [Point(df_geofeatures['lat'][i], df_geofeatures['lng'][i]) for i in range(len(df_geofeatures['lat']))]
 
-df_competitors = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/supermarkets_clean_data.csv')
-df_competitors = df_competitors.rename(columns={'geometry.viewport.northeast.lat': 'lat_shop', 'geometry.viewport.northeast.lng': 'lng_shop'})
-df_competitors['geometry'] = [Point(df_competitors['lat_shop'][i], df_competitors['lng_shop'][i]) for i in range(len(df_competitors['lat_shop']))]
-
-#calculate nearest neighbour
-assigned_df = ckdnearest(df_competitors, df_geofeatures)
-
-#make df with number of supermarkets for each coordinate point in original geofeatures file
-#need to get rid of geometry in one df so it won't be in the new df twice
-assigned_df = assigned_df.drop('geometry', axis=1)
-#new column to compare closest coordinates of supermarkets and take them together
-assigned_df['lat, lng'] = assigned_df['lat'].astype(str) + ', ' + assigned_df['lng'].astype(str)
-#new df to drop duplicates of coordinates
-new_df = assigned_df[['lat, lng', 'lat', 'lng']]
-new_df = new_df.drop_duplicates('lat, lng')
-list_lat_lng = new_df['lat, lng'].tolist()
-#make lists of new columns wanted in the new df to keep count of supermarkets per point
-migros = []
-coop = []
-discounter = []
-other = []
-sup_columns = [migros, coop, discounter, other]
-distance_limit = 0.01 #to make sure no supermarket outside of our region of interest is accidently included
-for i in range(len(list_lat_lng)):
-    lat_lng = list_lat_lng[i]
-    for k in range(len(sup_columns)):
-        sup_columns[k].append(0)
-    df_same = assigned_df[assigned_df['lat, lng'] == lat_lng]
-    count = df_same['search_name'].count()
-    for c in range(count):
-        distance = df_same.iloc[c].dist
-        if distance > distance_limit:
+def assign_store(df_features, df_stores):
+    from shapely.geometry import Point
+    from kd_tree import ckdnearest
+    # add new column with both coordinates as type point in dataframes that need to be compared for closest neighbours
+    df_features['geometry'] = [Point(df_features['lat'][i], df_features['lng'][i]) for i in
+                               range(len(df_features['lat']))]
+    df_stores['geometry'] = [Point(df_stores['lat_shop'][i], df_stores['lng_shop'][i]) for i in
+                             range(len(df_stores['lat_shop']))]
+    # calculate nearest neighbour
+    assigned_df = ckdnearest(df_stores, df_features)
+    distance_limit = 0.01
+    supermarkets_geo = {}
+    for index, row in assigned_df.iterrows():
+        if row['dist'] > distance_limit:
             continue
-        brand = df_same.iloc[c].search_name.lower()
-        if brand in ['migros']:
-            migros[i] += 1
-        elif brand in ['coop']:
-            coop[i] += 1
+        key = (row['lat'], row['lng'])
+        if not key in supermarkets_geo:
+            supermarkets_geo[key] = {'migros': 0,
+                                     'coop': 0,
+                                     'discounter': 0,
+                                     'other': 0}
+        brand = row['search_name'].lower()
+        if brand == 'migros':
+            supermarkets_geo[key]['migros'] += 1
+        elif brand == 'coop':
+            supermarkets_geo[key]['coop'] += 1
         elif brand in ['lidl', 'aldi']:
-            discounter[i] += 1
-        elif brand in ['denner']: #exclude denner since next to nearly every migros is a denner and they are the same
+            supermarkets_geo[key]['discounter'] += 1
+        elif brand == 'denner':  # exclude denner since next to nearly every migros is a denner and they are the same
             continue
         else:
-            other[i] += 1
+            supermarkets_geo[key]['other'] += 1
+    new_df = df_features.copy(deep=True)
+    for key in list(supermarkets_geo.values())[0].keys():
+        new_df[key] = 0
+    for index, row in new_df.iterrows():
+        key = (row['lat'], row['lng'])
+        if key in supermarkets_geo:
+            for store, count in supermarkets_geo[key].items():
+                new_df.loc[index, store] = count
+    new_df['competitors'] = new_df['coop'] + new_df['discounter'] + new_df['other']  # count all competitor supermarkets per coordinate
+    new_df['all_supermarkets'] = new_df['migros'] + new_df['competitors']  # count all supermarkets per coordinate
+    return new_df
 
-df = pd.DataFrame({'lat': new_df['lat'].tolist(),
-                   'lng': new_df['lng'].tolist(),
-                   'migros': migros,
-                   'coop': coop,
-                   'discounter': discounter,
-                   'other': other,})
-df['competitors'] = df['coop'] + df['discounter'] + df['other'] #count all competitor supermarkets per coordinate
-df['all_supermarkets'] = df['migros'] + df['coop'] + df['discounter'] + df['other'] #count all supermarkets per coordinate
-df_merged = pd.merge(df_geofeatures, df, how='outer')
-df_merged = df_merged.fillna(0)
-df_merged.to_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_and_supermarkets.csv', index=False)
+
+#df = assign_store(df_geofeatures, df_competitors)
 
