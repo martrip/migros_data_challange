@@ -1,9 +1,4 @@
 import pandas as pd
-import geopandas as gpd
-import numpy as np
-from scipy.spatial import cKDTree
-from shapely.geometry import Point
-from kd_tree import ckdnearest
 from assign_store import assign_store
 from assign_companies import assign_companies
 

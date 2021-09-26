@@ -1,0 +1,15 @@
+name: migros_dc
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - ipykernel
+  - jupyterlab
+  - pandas
+  - numpy
+  - scipy
+  - shapely
+  - requests
+  - beautifulsoup4
+  - geopandas
+prefix: C:\Users\Martina\anaconda3\envs\migros_dc
