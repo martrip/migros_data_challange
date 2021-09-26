@@ -1,12 +1,3 @@
-# import pandas as pd
-# from shapely.geometry import Point
-# from kd_tree import ckdnearest
-
-# #open data files
-# df_geofeatures = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/GeoFeatures_Zurich_needed.csv')
-# df_competitors = pd.read_csv('C:/Users/Martina/Documents/Propulsion/migros_data_challange/data/supermarkets_clean_data.csv')
-# df_competitors = df_competitors.rename(columns={'geometry.viewport.northeast.lat': 'lat_shop', 'geometry.viewport.northeast.lng': 'lng_shop'})
-
 
 def assign_store(df_features, df_stores):
     from shapely.geometry import Point
