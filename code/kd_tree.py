@@ -1,11 +1,9 @@
 #kd-tree for quick nearest-neighbor lookup example
-import pandas as pd
-import geopandas as gpd
-import numpy as np
-from scipy.spatial import cKDTree
-from shapely.geometry import Point
 
 def ckdnearest(gdA, gdB):
+    import pandas as pd
+    import numpy as np
+    from scipy.spatial import cKDTree
     nA = np.array(list(gdA.geometry.apply(lambda x: (x.x, x.y))))
     nB = np.array(list(gdB.geometry.apply(lambda x: (x.x, x.y))))
     btree = cKDTree(nB)
