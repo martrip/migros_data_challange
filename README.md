@@ -45,7 +45,14 @@ As data scientists we were tasked with finding the best places to create new Mig
 
 <br/> :abacus: **Methodology/ Modelling** 
 
--"DataExploraton": Logistic regression
+-"DataExploraton": Logistic regression. Having different geolocation with some variables describing it's characteristics and one binary variable to define if exists a migros in that location or not, gave us the idea of applying a logistic regression to try to predict how probable it is to have a migros in each one of the locations where there is not one yet.
+
+After some feature engineering the 3 variables that looked like were relevant to predict the migros location were:
+
+- hh_ha
+- pers_ha
+- pt_dis
+- station_dis
 
 <br/> :chart_with_upwards_trend: **Results & Visualizations:** 
 
