@@ -1,16 +1,18 @@
-# migros_data_challange
+# :mag: Finding the next Migros store location
 
 <br/> :switzerland: **Background and Task:**
 <br/> Migros is one of the largest retail companies in Switzerland.
 As data scientists we were tasked with finding the best places to create new Migros stores in the city and surrounding of Zurich. We should analyze the market opportunities based on the density of existing stores, presence of competitors, and general population density to inform Migros’ development strategy.
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/89683936/134371145-117e1d09-e608-4113-8d4d-21e62c998ba2.png">
 
-<br/> ::thought_balloon:: **Data Collection** @Ruben and @Lisa (Python Modules and short description)
+<br/> ::thought_balloon:: **Data Collection** 
 - Data provided by Urban Data Lab
-- Google Places API: Locations of all Migros and competitor (Coop, Aldi, Lidl, Spar) stores in the city and surrounding of Zurich 
-- Webscaping of Yello: Locations of Businesses in the city and surrounding of Zurich 
-- 
-<br/> :page_with_curl: **Feature Descriptions:** @lisa
+- "DataExploraton": 
+  - Google Places API: Locations of all Migros and competitor (Coop, Aldi, Lidl, Spar) stores in the city and surrounding of Zurich 
+  - Webscaping of Yello: Locations of Businesses in the city and surrounding of Zurich 
+
+
+<br/> :page_with_curl: **Feature Descriptions:** 
 - Population
   - Population Density
   - Household Density
@@ -31,16 +33,21 @@ As data scientists we were tasked with finding the best places to create new Mig
   - Number of buildings within 500m
   
 
-:pencil2: **Data Processing:** @Martina and @Mario (Python Modules and short description)
+:pencil2: **Data Processing:** 
 
--To do: Names of python modules
 -Feature engineering, description of the individual engineering steps  
+-combine_data: main file, assigning supermarkets and companies to the closest pre-defined geolocation
+  - "assign_companies" and "assign_store" functions used in the main file "combine_data"
+  - "kd_tree" function used in the "assign_companies" and "assign_store" files
+-"get_some_numbers": numbers needed for our final presentation
+-"Counter": This module counts all supermarkets within a distance of 500m for every row in the dataset
+-"Heatmap": this notebook visualizes the analyzed data
 
-<br/> :abacus: **Methodology/ Modelling** @Ruben (Python Modules and short description)
+<br/> :abacus: **Methodology/ Modelling** 
 
--Logistic regression: Input variables, description what we did
+-"DataExploraton": Logistic regression
 
-<br/> :chart_with_upwards_trend: **Results & Visualizations:** @Mario (Python Modules and short description)
+<br/> :chart_with_upwards_trend: **Results & Visualizations:** 
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/89683936/134368103-30a03458-5e6f-4097-83d8-b0a7b4261a95.png">
 
