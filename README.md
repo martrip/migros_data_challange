@@ -45,9 +45,7 @@ As data scientists we were tasked with finding the best places to create new Mig
 
 <br/> :abacus: **Methodology/ Modelling** 
 
--"DataExploraton": Logistic regression. Having different geolocation with some variables describing its characteristics and one binary variable to define if exists a migros in that location or not, gave us the idea of applying a logistic regression to try to predict how probable it is to have a Migros store in each one of the locations where there is not one yet.
-
-After some feature engineering the 3 variables that looked like were relevant to predict the migros location were:
+-"DataExploraton": Logistic regression. After data collection, we had some geographic locations. These include having some variables that describe their characteristics and a binary variable that defines whether or not there is a Migros in that location. So we came up with the idea of using logistic regression to predict how likely it is that there is a store in each of the locations where there is not yet a Migros. After conducting an analysis, 4 variables emerged that seemed to be relevant in predicting the Migros location: 
 
 - hh_ha
 - pers_ha
